@@ -11,21 +11,40 @@
     <h1>Teachers</h1>
     <div class="container">
         <div class="question-container">
-            <div id="question-container"></div>
+            
+            <div id="question-container">
+
+            </div>
+            
 
         </div>
+
         <div class="task-maker-container">
             <div class="task-creation-wizard">
-                <label for="num1">Number 1
-                <input type="text" id="num1" placeholder="Enter No1">
-            </label>
-            <label for="num2">Number 2
-                <input type="text" id="num2" placeholder="Enter No2">
-            </label>
-            
+                    <label for="num1">Number 1:</label>
+                    <input type="text" id="num1" placeholder="Enter No1">
+                
+        
+                    <label for="num2">Number 2:</label>
+                    <input type="text" id="num2" placeholder="Enter No2">
+        
+                    <label for="oper">Operator:</label>
+                    <select name="oper" id="oper">
+                        <option value="add">Addition (+)</option>
+                        <option value="sub">Subtraction (-)</option>
+                        <option value="mul">Multiplication (*)</option>
+                        <option value="div">Division (/)</option>
+                    </select>
+                    <center>
+                    <button type="submit" onclick="calculate()">Create</button>
+                     </center> 
+                    <!-- <label for="ans">Answer:</label>
+                    <input type="text" id="val" placeholder="Enter Answer"> -->
             </div>
         </div>
-    </div>
+        
+        
     <script src="./scripts/main.js"></script>
+    
 </body>
 </html>

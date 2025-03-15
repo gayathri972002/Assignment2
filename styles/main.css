@@ -26,8 +26,23 @@ ul{
     width: 20%;
     height: 100%;
     background-color: #ccc;
-}
+
+} 
 
 .task-creation-wizard{
     padding: 1em;
+}
+
+
+label {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input, select {
+    margin-bottom: 10;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
