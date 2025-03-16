@@ -49,6 +49,11 @@ function clearQuestions() {
 
 document.addEventListener("DOMContentLoaded", displayQuestions);
 
+
+
+
+
+
 // Script for Student Page
 function loadStudentQuestions() {
     const studentQuestionsDiv = document.getElementById("student-questions");
